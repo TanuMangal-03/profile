@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+</head>
+<body>
+    <form action="POST">
+        <label for="username"> username:</label>
+        <input type="text"name="username" placeholder="must be lowercase">
+        <label for="password">password:</label>
+        <input type="password" name="password">
+         <input type="email" name="user email" placeholder="Enter email">
+         <input type="url" name="website" placeholder="Enter website URL">
+         <input type="number" name="age" min="1" max="100">
+         <input type="date" name="dob" >
+         <input type="time" name="meeting_time" >
+         <input type="datetime-local" name="event" >
+         <label ><input type="radio" name="gender" value="male">male</label>
+         <label><input type="radio" name="gender" value="female">female</label>
+         <label><input type="checkbox" name="subscribe" value="yes">subscribe to newsletters</label>
+         <input type="file" name="resume" accept=".pdf,.docx">
+         <select name="country">
+            <option value="india">india</option>
+            <option value="singapore">singapore</option>
+            <option value="dubai">dubai</option>
+            <option value="usa">USA</option>
+            <option value="uk">UK</option>
+
+         </select>
+         <textarea name="feedback" rows="5" cols="30" placeholder="Write your feedback...."></textarea>
+         <input type="submit" value="submit">
+         <input type="reset" value="Reset">
+         <button type="button">Click me</button> 
+
+    </form>
+    
+</body>
+</html>
